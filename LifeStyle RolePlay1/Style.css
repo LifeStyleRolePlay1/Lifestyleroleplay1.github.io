@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2? family= Advent+Pro & family= Dancing+Script:wght@500 & family= Uchen & display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 2em;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+/* *******************NAVBAR****************************** */
+nav {
+overflow: hidden;
+background-color: #FFFAE1;
+position: fixed;
+width: 100%;
+opacity: 0.9;
+}
+header li {
+	float: right;
+	font-size: 1.2em;
+}
+header li a {
+	text-decoration: none;
+	display:black; 
+	text-align: center;
+	padding: 18px 16px;
+}
+#logo {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+  float: left;
+}
+/* ******************IMAGE PRINCIPALE******************** */
+#imagePrincipale {
+	padding-top: 10px;
+	background: url(https://cdn.discordapp.com/attachments/637719955412090892/864931968792526868/1.jpg) no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 780px;
+}
+h1 {
+	font-family: 'Dancing Script';
+	text-align: center;
+	color: whitesmoke;
+	font-size: 6em;
+	margin-top: 10px;
+	text-shadow: 1px 3px 2px black;	
+
+}
+#premierTrait {
+	height: 1px;
+	width: 50%;
+	margin: -3px auto;
+  background-color: whitesmoke;
+	box-shadow: 1px 3px 2px black;
+
+}
+h3 {
+	text-align: center;
+	color: whitesmoke;
+	font-size: 1em;
+	text-shadow: 1px 3px 2px black;
+}
+/* *****************PRESENTATION*********************** */
+#presentation {
+	background-color: #FFFAE1;
+	padding: 10px 0px 200px 0;
+	}
+	#texteIntro {
+		padding: 0px 20px;
+	}
+	#prestations {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 30px 10%;
+	}	
+	.imagesPrestations h4 {
+		font-family: 'Dancing Script', cursive;
+		text-align: center;
+		font-size: 1.8em;
+		margin: 15px;
+		font-weight: 300S;
+	}
+	.imagesPrestations img {
+		border-radius: 10px;
+		box-shadow: 3px 4px 5px 4px rgba(0,0,0,0);
+	}
+	.imagesPrestations img:hover {
+		opacity: 0.5;
+		transform: scale(1.05);
+		transition: 0.6s ease-in-out;
+	}
+	/* **********************A PROPOS************************* */
+	#àPropos {
+		height: 1400px;
+		background-color: #F1F2F6;
+		padding: 1px 2%;
+	}
+	#àPropos h2 {
+		padding-top: 60px;
+	}
+	#metiersetsalaires {
+		background: url(https://cdn.discordapp.com/attachments/637719955412090892/864888674562473994/unknown.png);
+	}
+	#plainte {
+		background: url(https://cdn.discordapp.com/attachments/637719955412090892/864926961926668288/unknown.png);
+	}
+	#ci {
+		background: url(https://cdn.discordapp.com/attachments/637719955412090892/864925380922048602/unknown.png);
+	}
+	#Map {
+		background: url(https://cdn.discordapp.com/attachments/637719955412090892/864927605529640988/unknown.png);
+	}
+	#àPropos li {
+		margin: 65px 100px 0px 100px;
+		height: 192px;
+		width: 55%;
+		max-width: 305px;
+		float: left;
+		box-shadow: 6px 6px 28px -1px rgba(0,0,0,0);
+	}
+	#àPropos p {
+		height: 30px;
+		width: 200px;
+		background-color: rosybrown;
+		margin: 6px -200px 0 0;
+		font-size: 0.7em;
+		text-align: center;
+		padding-top: 15px;
+		box-shadow: 4px 4px 0 1px;
+	}
+	#àPropos #plainte, #àPropos #Map {
+		float: right;
+	}
+	#plainte p, #Map p {
+		float: left;
+		background-color: yellowgreen;
+		margin-left: -180px;
+		box-shadow: -4px 4px 0 1px;
+	}
+	/* **********************FOOTER************************** */
+	footer {
+		background-color: #524A3A;
+		color: #FFFAE1;
+		padding: 20px 0 10px 0;
+		text-align: center;
+	}
+	form {
+		margin: 0 auto;
+		max-width: 900px;
+	}
+	input, textarea, button {
+		border: none;
+		width: 55%;
+		padding: 15px 10px;
+		margin: 1px 0;
+		font-size: 1.2em;
+		font-family: 'Advent Pro', sans-serif;
+		border-radius: 8px;
+	}
+	textarea {
+		height: 120px;
+	}
+	button {
+		font-size: 1.5em;
+		background-color: #FFFAE1;
+	}
+	button:hover {
+		background-color: #e55019;
+		color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3 ease-in-out;
+	}
+	#deuxiemeTrait {
+		height: 1px;
+		width: 75%;
+		background-color: whitesmoke;
+		margin: 60px auto;
+		box-shadow: 1px 3px 2px black;
+	}
+	#copyrightt {
+		display: flex;
+		margin: 20px;
+		padding: 0 10px;
+	}
+	#copyright {
+		width: 100%;
+    text-align: center;
+		color: white;
+	}
+	h5 {
+		font-family: 'Dancing Script';
+		text-align: center;
+		color: whitesmoke;
+		font-size: 1.25em;
+		margin-top: 80px;
+		text-shadow: 1px 3px 2px black;		
+	}
